@@ -25,4 +25,5 @@ sub obtener_conexion{
         RaiseError => 1,
         AutoCommit => 1
     }) or die("Erreur de connection ");
+   
 }
